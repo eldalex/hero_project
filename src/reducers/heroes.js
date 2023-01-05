@@ -1,3 +1,5 @@
+///После введения slice этот файл можно удалять.
+
 import {
     heroesFetching,
     heroesFetched,
