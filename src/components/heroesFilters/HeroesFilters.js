@@ -2,8 +2,9 @@ import {useHttp} from '../../hooks/http.hook';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import classNames from 'classnames';
+import {activeFilterChanged, fetchFilters} from '../heroesFilters/filtersSlice'
+// import {fetchFilters} from '../../actions';
 
-import {activeFilterChanged , fetchFilters} from '../../actions';
 import Spinner from '../spinner/Spinner';
 
 // Задача для этого компонента:
