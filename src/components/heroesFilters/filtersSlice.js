@@ -1,6 +1,5 @@
 import {createSlice, createAsyncThunk} from "@reduxjs/toolkit";
 import {useHttp} from "../../hooks/http.hook";
-import {fetchHeroes} from "../heroesList/heroesSlice";
 
 const initialState = {
     filters: [],
